@@ -1,8 +1,14 @@
-'''I create three rows to solve this project : dashes row, first_operands_row and second_operands_row
-'''
+"""
+I create three rows to solve this project :
+    dashes row, first_operands_row, second_operands_row and answers_row
+"""
 
 
 def arithmetic_arranger(problems, show_answer=False):
+    """
+    To raise errors I create errors dictionary.
+    When an error occurs program gets 1 to that specific error otherwise it gets 0
+    """
     # Errors
     # 1-if number of problems are more than 5 program will rais Error
     errors = dict()
@@ -142,4 +148,4 @@ def arithmetic_arranger(problems, show_answer=False):
 
         return arranged_problems
 
-arithmetic_arranger(['4433+77', '4224- 7780', '59.29 + 1', '2221-5555'], show_answer=True)
+
